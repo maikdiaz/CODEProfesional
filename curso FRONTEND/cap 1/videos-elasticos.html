@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>VIDEOS ELASTICOS</title>
+
+	<style>
+		body{
+			font-family: Arial;
+		}
+		#wrapper{
+			max-width: 1000px;
+			margin: auto;
+		}
+		.col1,
+		.col2{
+			width: 50%;
+			float:left;
+		}
+		/*Con esto se utiliza la configuracion 16:9*/
+		.contenedor{
+			height: 0;
+			overflow: hidden;
+			padding-bottom: 56.25%;
+			padding-top:30px;
+			position: relative;
+		}
+		/*con esto se da el soporte a los diferntes tipos de video insertados que existen*/
+		.contenedor iframe,
+		.contenedor object,
+		.contenedor embed,
+		.contenedor video{
+			height: 100%;
+			left:0;
+			position: absolute;
+			top:0;
+			width: 95%;
+		}
+		
+		@media scree and (max-width: 1000px){
+			.col1,
+			.col2{
+				width:auto;
+			}
+		}
+	</style>
+
+</head>
+<body>
+	<div id="wrapper">
+		<div class="col1">
+			<h1>ESTO ES UN EJEMPLO</h1>
+			<p>
+			El vídeo 1 o video2 3 es la tecnología de la grabación, procesamiento, almacenamiento, transmisión de imágenes y reconstrucción por medios electrónicos digitales o analógicos de una secuencia de imágenes que representan escenas en movimiento. Etimológicamente la palabra video proviene del verbo latino video, vides, videre, que se traduce como el verbo ‘ver’. Se suele aplicar este término a la señal de vídeo y muchas veces se la denomina «el vídeo» o «la vídeo» a modo de abreviatura del nombre completo de la misma.
+
+	
+			</p>
+			<p>
+				La tecnología de vídeo fue desarrollada por primera vez para los sistemas de televisión, pero ha derivado en muchos formatos para permitir la grabación de vídeo de los consumidores y que además pueda ser visto a través de Internet.
+
+
+			</p>
+		</div>
+
+		<div class="col2">
+			<h2>APRENDER SOBRE RETINA DISPLAY</h2>
+				<div class="contenedor">
+					<iframe width="720" height="480" src="https://www.youtube.com/watch?v=TeTAZvxWWJ0" frameborder="0" allowfullscreen></iframe>
+				</div>
+			<p>
+				Velocidad de carga de las imágenes (cadencia): número de imágenes por unidad de tiempo de vídeo, para viejas cámaras mecánicas cargas de seis a ocho fotogramas por segundo (fps) o 120 imágenes por segundo o más para las nuevas cámaras profesionales. Los estándares PAL (Europa, Asia, Australia, etc.) y SECAM (Francia, Rusia, partes de África, etc.) especifican 25 fps, mientras que NTSC (EE. UU., Canadá, Japón, etc.) especifica 29,97 fps. El cine es más lento con una velocidad de 24fps, lo que complica un poco el proceso de transferir una película de cine a vídeo. Para lograr la ilusión de una imagen en movimiento, la velocidad mínima de carga de las imágenes es de unas quince imágenes por segundo, sin embargo el ojo humano puede distinguir movimiento mucho más fluido por encima de los 48 fotogramas por segundo.
+			</p>
+
+		</div>
+
+	</div>
+</body>
+</html>

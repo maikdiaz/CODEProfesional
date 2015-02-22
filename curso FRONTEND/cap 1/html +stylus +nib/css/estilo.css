@@ -1,0 +1,44 @@
+/*@import 'nib'
+
+vendor-prefixes= o ms moz webkit yotros
+*/
+body {
+  background: #31d56a;
+}
+.caja-inblock {
+  border: 1px solid #000;
+  padding: 1em;
+  display: inline-block;
+  background: #4574ef;
+}
+.btn {
+  height-line: 30px;
+  background: #4574ef;
+  border: 1px solid #ffa500;
+  color: #fff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: 1s background;
+}
+.btnhover {
+  background: #94cd3f;
+}
+.btnyellow {
+  background: #e4df0e;
+}
+.btnyellowhover {
+  background: #ffa500;
+}
+.btnblue {
+  background: #3ae9e9;
+}
+.btnbluehover {
+  background: #1c46f0;
+}
+.padre {
+/*background linear-gradient(top,white,black)*/
+  padding: 60px;
+}
+.padre .hijo {
+  font-size: 16px;
+}
