@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css" />
+	<script type="text/javascript" src="js/script.js"></script>
+
+
+	<title>QUIZ SUPER HIPER MEGA MEJORADO</title>
+</head>
+<body background="imagenes/backgroundbody.jpg">
+
+	<header>
+		<img  id="logoizq" src="imagenes/html5.png" alt="logo html5">
+		<h1>PERSONAL INFORMATION</h1>
+		<div><figure id="logodere"></figure></div>
+	</header>
+	<nav>
+		<ul class="navegador">
+			<li><a href="">ITEM1</a></li>
+			<li><a href="">ITEM2</a></li>
+			<li><a href="">ITEM3</a></li>
+			<li><a href="">ITEM4</a></li>
+			<li><a href="">ITEM5</a></li>
+			<li><a href="">ITEM6</a></li>
+			<li><a href="">ITEM7</a></li>
+		</ul>
+
+	</nav>
+	<section> <!--onsubmit="validarFormulario()" -->
+		<form class="formulario" action="#">
+
+
+			<label  for="nom">Nombre:</label><input id="nombre"  placeholder="ingrese nombre" type="text"><br/> <br/>
+			<label  for="ape">Apellido:</label><input id="apellido" placeholder="ingrese apellido" type="text"><br/> <br/>
+			<label  for="cor">Correo:</label><input  id="correo" placeholder="ingrese su correo" type="text"  onblur="validarCorreo(correo)"><br/> <br/>
+			<label  for="cor2">Correo2:</label><input  id="correo2" placeholder="ingrese su correo" type="text"><br/> <br/>
+			<label  for="eda">Edad:</label><input id="edad" type="number"><br/> <br/>
+
+			<input id="botonEnviar" value="ENVIAR" type="submit" onclick="saludar()"> <br/> <br/>
+
+
+
+
+
+		</form>
+		
+		
+	</section>
+
+
+</body>
+</html>
